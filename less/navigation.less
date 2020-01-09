@@ -1,1 +1,25 @@
 // Navigation Styles here
+
+.navigation {
+    border-bottom: @borderBottom;
+    max-width: 100%;
+    display: @flex;
+    justify-content: flex-end;
+    padding-top: @paddingNav;
+    padding-bottom: @paddingNav;
+    
+    nav {
+        padding-top: 1%;
+    }
+
+    h1 {
+        margin-right: 46%;
+    }
+    
+    a {
+        .navColor();
+        font-size: 1.6rem;
+        margin: .7em;
+        line-height: 1.5em;
+    }
+}

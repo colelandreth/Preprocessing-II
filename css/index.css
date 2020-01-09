@@ -250,3 +250,15 @@ img {
   width: 30%;
   margin-bottom: 30px;
 }
+.intro {
+  border-bottom: 2px dashed #C0C0C0;
+}
+.intro img {
+  padding-bottom: 3em;
+}
+.intro h2 {
+  padding-bottom: 2%;
+}
+.intro p {
+  padding-bottom: 3em;
+}
